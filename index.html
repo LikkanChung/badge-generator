@@ -10,12 +10,12 @@
 	</head>
 	<body>
 		<div class="container title">
-			<h1>SoCS Ambassador Badges</h1>
+			<h1>PDF Badge Generator</h1>
 			<p>
-				This is a simple webpage that makes it easier to generate new badges for Computer Science ambassadors for the School of Computer Science at the Univeristy of Birmingham.
+				This is a simple webpage that makes it easier to generate printable inserts for reusable clip badges. Badges are 90mm x 55mm.
 			</p>
 			<p>
-				Badges have 3 elements, a <b>name</b>, <b>preferred pronoun</b>, and a <b>course description</b> which can either be 1 or 2 lines. Sometimes it may be useful to split the course descitpion over 2 lines so it fits inside the badge. The different lines in the badge don't have to be used this way - it's only a suggestion.
+				Badges have 3 elements, a <b>name</b>, <b>preferred pronoun</b>, and a <b>title</b> which can either be 1 or 2 lines. Sometimes it may be useful to split the title over 2 lines so it fits inside the badge. For example, you can use it for a team name and a job role. The different lines in the badge don't have to be used this way - it's only a suggestion.
 			</p>
 			<p>
 				<b>GDPR:</b> No data from this webpage is transferred at any point over the Internet. Personally identifiable information (such as names and pronouns) may be saved as locally on your device if you use the template or download the generated PDF.
@@ -49,7 +49,8 @@
 						<div class="card-body">
 							<p><b>Note:</b> This will clear any entries already in the table.</p>
 							<ol>
-								<li>Press <b>'Download Template'</b> to download the template CSV file</li>
+								<li>Press <b>'Download Template'</b> to download the template CSV file.</li>
+								<li>The CSV file has the header row: <pre>name,pronouns,line1,line2</pre></li>
 								<li>Open the file in a text editor or in a program such as Microsoft Excel.</li>
 								<li>Add rows as necessary, but do not edit the header row.</li> 
 								<li>Save the file as a CSV file.<br><b>Note:</b> Do not change the file format if prompted to by Microsoft Excel.</li>
@@ -77,17 +78,17 @@
 									<th scope="col">Line 2</th>
 								</tr>
 								<tr>
-									<th scope="row">Ambasador</th>
+									<th scope="row">Name and Team</th>
 									<td>Name</td>
-									<td>Pronouns</td>
-									<td colspan="2">Role Title / Course</td>
+									<td></td>
+									<td colspan="2">Team Name</td>
 								</tr>
 								<tr>
-									<th scope="row">Applicant</th>
+									<th scope="row">Team and Role</th>
 									<td>Name</td>
 									<td><em>Leave blank</em></td>
-									<td>"Applicant"</td>
-									<td>"Group A"</td>
+									<td>Team Name</td>
+									<td>Job Role</td>
 								</tr>
 							</table>
 						</div>
